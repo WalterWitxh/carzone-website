@@ -14,3 +14,30 @@ Car Zone is a web-based car rental platform designed to provide a seamless exper
     Frontend: HTML, CSS, JavaScript
     Backend: PHP
     Database: MySQL
+
+🚀 Setup Instructions
+
+    Clone the repository:
+
+git clone https://github.com/WalterWitxh/carzone-website.git
+
+    Import the database (database.sql) into MySQL.
+    Configure database connection settings in db.php.
+    Start the local server:
+
+php -S localhost:8000
+
+    Open your browser and visit:
+
+http://localhost:8000
+
+🌍 Deployment
+
+Hosted on InfinityFree — [URL Unavailable]
+👥 Contributors
+
+    WalterWitxh – Developer
+
+📝 License
+
+This project is licensed under the MIT License.
