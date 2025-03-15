@@ -1,0 +1,23 @@
+# Ignore environment files
+.env
+
+# Ignore dependency folders
+vendor/
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.cache
+*.min.css
+*.min.js
+
+# Ignore IDE-specific files
+*.vscode
+*.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
