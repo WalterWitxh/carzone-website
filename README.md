@@ -67,6 +67,7 @@ $pass = '';      // your password
 To access admin features:
 - Email: admin@gmail.com
 - Password: admin@123
-
+## More about features and screenshots are in :
+   https://abhinavsunil.web.app/portfolio-details.html
 ## License
 This project is licensed under the MIT License.
