@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!---Coding By CoderGirl | www.codinglabweb.com--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Page</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    
+    <!-- Login Form -->
+    <div class="login form">
+      <header>Login</header>
+      <form action="login.php" method="POST">
+        <input type="text" name="email" placeholder="Enter your email" required
+               oninvalid="this.setCustomValidity('Please enter your email')"
+               oninput="this.setCustomValidity('')">
+        <input type="password" name="password" placeholder="Enter your password" required
+               oninvalid="this.setCustomValidity('Please enter your password')"
+               oninput="this.setCustomValidity('')">
+        <a href="#" onclick="alert('Kindly contact the admin to reset your password :))')">Forgot password?</a>
+
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    
+    <!-- Signup Form -->
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="signup.php" method="POST">
+        <input type="text" name="username" placeholder="Enter your username" required
+               oninvalid="this.setCustomValidity('Username cannot be blank')"
+               oninput="this.setCustomValidity('')">
+        <input type="text" name="email" placeholder="Enter your email" required
+               oninvalid="this.setCustomValidity('Email cannot be blank')"
+               oninput="this.setCustomValidity('')">
+        <input type="password" name="password" placeholder="Create a password" required
+               oninvalid="this.setCustomValidity('Password cannot be blank')"
+               oninput="this.setCustomValidity('')">
+        <input type="password" name="confirm_password" placeholder="Confirm your password" required
+               oninvalid="this.setCustomValidity('Please confirm your password')"
+               oninput="this.setCustomValidity('')">
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
