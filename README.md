@@ -12,8 +12,8 @@ A simple car rental website built with PHP and MySQL. Users can browse cars, mak
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/carzone.git
-   cd carzone
+   git clone https://github.com/WalterWitxh/carzone-website.git
+   cd carzone-website
    ```
 
 ## Database Setup
@@ -38,13 +38,13 @@ $pass = '';      // your password
 1. Install XAMPP.
 2. Start Apache and MySQL.
 3. Place project in `htdocs` folder.
-4. Open `http://localhost/carzone`.
+4. Open `http://localhost/carzone-website`.
 
 ### WAMP (Windows)
 1. Install WAMP.
 2. Start services.
 3. Place project in `www` folder.
-4. Open `http://localhost/carzone`.
+4. Open `http://localhost/carzone-website`.
 
 ### Ubuntu
 1. Install Apache, PHP, MySQL:
@@ -59,9 +59,9 @@ $pass = '';      // your password
    ```
 3. Link project to `/var/www/html`:
    ```bash
-   sudo ln -s /path/to/project /var/www/html/carzone
+   sudo ln -s /path/to/project /var/www/html/carzone-website
    ```
-4. Open `http://localhost/carzone`.
+4. Open `http://localhost/carzone-website`.
 
 ## Admin Access
 To access admin features:
